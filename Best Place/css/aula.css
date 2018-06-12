@@ -1,0 +1,335 @@
+/* COMEÇA PADRÕES*/
+body
+{
+   margin:0;
+   min-width: 960px;
+   color: #0c26e8;
+   background-color: #D3D3D3;
+   background-repeat: repeat;
+   margin-bottom: 30px;
+
+}
+
+
+
+a {
+   color: #ffffff;
+}
+
+
+a.active {
+   color: #4551f7;
+}
+
+
+a:hover
+{
+   color: #4551f7;
+}
+
+#estrutura
+{
+   width:960px;
+   margin: 0 auto; 
+
+
+}
+
+
+#estrutura, table
+{
+   font-family: sans-serif ,Arial, Helvetica, Sans-Serif;
+   font-size: 12px;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
+{
+   margin: 0;
+   padding: 0;
+}
+
+
+.cleared
+{
+   display:block;
+   clear: both;
+   float: none;
+   margin: 0;
+   padding: 0;
+   border: none;
+   font-size: 0;
+   height:0;
+   overflow:hidden;
+}
+
+
+.reset-box
+{
+   overflow:hidden;
+   display:table;
+}
+
+
+p{
+   margin: 12px 12px 12px 12px;
+}
+
+
+/* ENCERRA PADRÕES*/
+
+
+/* DIV DO LOGO */
+div.logo
+{
+   display: block;
+   margin-top: 2%;
+   max-height:77px;
+   height: 140px;
+   width: 450px;   
+}
+
+/* FIM DA DIV DO LOGO */
+
+
+/* COMEÇA REDES SOCIAIS*/
+.redesSociais{
+ 
+   float: right; 
+   width: 8%;
+   margin-top: -55px;
+   height: 40px;
+   margin-right: 50px;
+
+}
+
+.redesSociais ul{
+   list-style-type: none;
+}
+
+.redesSociais li{
+
+   display: inline-block;
+
+}
+
+/* ENCERRA REDES SOCIAIS*/
+
+
+
+/* COMEÇA MENU */
+.menu{
+   margin-top: 20px;
+}
+
+
+.menu ul{
+   float: left;
+}
+
+.menu ul>li{
+   display: inline;
+   list-style-type: none;
+   text-transform: uppercase;
+}
+
+
+.menuseparator
+{   
+
+   border-right: 1px solid white;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+
+
+.menu a, .menu a:link, .menu a:visited, .menu a:hover
+{
+   font-style: normal;
+   font-weight: bold;
+   text-align: left;
+   text-decoration: none;
+}
+/* ENCERRA MENU */
+
+
+
+
+/* COMEÇA TRANSIÇÃO IMAGENS */
+#transicao{
+   margin:90 0 0 200;
+   width:100px; /* Make sure your images are the same size */
+   height:370px; /* Make sure your images are the same size */
+
+   border:1px solid #252525;
+}
+
+#quemsomos{
+   margin:80px 0 0 0;
+   width:100px; /* Make sure your images are the same size */
+   height:370px; /* Make sure your images are the same size */
+
+   border:1px solid #252525;
+}
+
+#parceiros{
+   margin:80px 0 0 80;
+   width:100px; /* Make sure your images are the same size */
+   height:370px; /* Make sure your images are the same size */
+
+   border:1px solid #252525;
+}
+
+#parceiros3{
+   margin:10px 0 0 80;
+   width:100px; /* Make sure your images are the same size */
+   height:370px; /* Make sure your images are the same size */
+
+   border:1px solid #252525;
+}
+
+
+/* COMEÇA CONTEUDO */
+
+
+.titulo
+{
+   font-family: Arial, Helvetica, Sans-Serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 25px;
+   text-decoration: none;
+   text-shadow:0px 1px 0px #000;
+   margin: 10px 5px 18px 5px;
+}
+
+
+.tituloPecas
+{ 
+   color: #FF4A4A;
+   text-align: center;
+}
+
+.descricaoPecas
+{
+   padding: 10px 0px 1px 12px; 
+}
+
+.comprarPecas
+{
+   background: url("../img/viagens/comprar.gif") no-repeat  center rgba(27, 30, 43, 0);
+   width:160px;
+   height:40px; 
+   margin-left: 55px;
+}
+
+.imagemPecas
+{ 
+  padding: 15px 60px;
+}
+
+.pecas{
+   width: 29%;
+   height: 345px;
+   float: left;
+   margin: 26px 0px 50px 32px;
+}
+
+
+input[type='submit'], button 
+{ 
+   cursor: pointer; 
+}
+
+
+
+.imagemEncontros
+{ 
+   padding: 15px 230px;
+}
+
+
+.link
+{
+   text-decoration: underline !important;
+   font-weight: bold;
+   font-style: italic;
+   color: #008DA6 ;
+}
+
+.link a:visited
+{
+   color: #FF4A4A;
+}
+
+
+/* EXCESSÃO DE ALINHAMENTO PARA O CONTATO*/
+#conteudo
+{
+   padding: 40px 0px 1px 12px;
+ 
+
+}
+
+/* ENCERRA CONTEUDO */
+
+
+
+.sombraGaleria{
+   width: 29%;
+   height: 345px;
+   float: left;
+   border-radius: 30px;
+   box-shadow: 0 4px 30px #FFF;
+   margin: 16px 0px 16px 32px;
+   background-color: #222222;
+}
+
+.textoContato
+{
+   border-radius: 5px;
+   width:400px !important; 
+   padding: 5px !important;
+}
+ 
+
+.rodape
+ {
+   border-top: 1px solid #D4CDC1;
+ }
+
+
+
+.box-01{
+   margin: 20px 0px 30px 62px;
+   width:350px;
+   height:250px;
+   float:left;
+   margin-right:18px;
+   font-size:11px;
+   background:#f7ead9;
+   border:6px solid #beb2a2
+}
+
+
+.box-04{
+   margin: 20px 0px 30px 48px !important;
+   width:160px;
+   margin-right:18px;
+   margin-top:30px;
+   float:left;
+   font-size:11px;
+   height:180px;
+   background:#f7ead9;
+   border:6px solid #beb2a2
+}
+
+.botaoVermelho
+{
+   background:url("../img/menu/botaoVermelho.png"); 
+   float:right; 
+   width:75px; 
+   height:36px; 
+   margin:28px -17px 0 0; 
+}

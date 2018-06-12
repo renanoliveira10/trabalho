@@ -1,0 +1,19 @@
+<?php
+$server = "localhost";
+$username = "root";
+$password ="";
+$database="mybestplace";
+   
+     //criar conexao
+     $conn=new mysqli($server,$username,$password,$database);
+
+     //checar conexao
+     if($conn->connect_error){
+         die("Erro ao conectar BD :".$conn->connect_error);
+     }
+  
+     $conn->close();
+
+
+
+?>

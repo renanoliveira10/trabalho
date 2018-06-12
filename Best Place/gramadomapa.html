@@ -1,0 +1,129 @@
+<html>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link href="css/aula.css" rel="stylesheet" type="text/css" />
+		
+	</head>
+	<!-- COMEÇA BODY -->
+	<body id="body">
+
+		<!-- COMEÇA ESTRUTURA -->
+		<div id="estrutura">
+
+			<!-- NUMEROS DE TELEFONES -->
+			
+
+
+			<!-- COMEÇA HEADER -->
+			<div id="header" style=" margin-top: -36px ">			
+
+				<!-- COMEÇA TOPO -->	
+				<div #topo> 
+
+					<!-- COMEÇA LOGO -->
+					<br><br><div class="logo">
+						<a href="index.html">							
+							<img src="img/logo.png" style="margin:0 auto; max-height:77px;"/>							
+						</a>						
+					</div>
+					<!-- ENCERRA LOGO -->
+					
+
+					<!-- COMEÇA REDES SOCIAIS -->
+					<div class="redesSociais" id="redesSociais">
+						<ul>
+							<li>						
+								<a target="_blank" title="Siga-nos no Twitter!" href="https://twitter.com/">						
+									<img src="img/twitter_icon.png"/>
+								</a>							
+							</li>
+									
+							<li>
+								<a target="_blank" title="Curta nossa página no Facebook!" href="http://www.facebook.com/">
+									<img src="img/facebook_icon.png" />
+								</a>							
+							</li>
+						</ul>
+					</div>
+					<!-- ENCERRA REDES SOCIAIS -->
+
+				</div>
+				<!-- ENCERRA TOPO -->	
+				
+				<!-- COMEÇA MENU -->	
+				<div id="menu" class="menu" >
+					<ul>
+						<li  class="menuseparator">
+							<a href="index.html">Home</a>
+						</li>
+
+						<li class="menuseparator">
+							<a href="Viagens.html">Viagens</a>
+						</li>
+						
+						<li class="menuseparator">
+							<a href="encontros.html">Parceiros</a>
+						</li>	
+
+						<li class="menuseparator">
+							<a href="Sobre.html">Sobre</a>
+						</li>						
+
+						<li style="padding-left: 15px;">
+							<a href="contato.html">Contato</a>
+						</li>
+
+					</ul>
+
+				<div class="cleared reset-box"></div>
+
+				</div>	
+				<!-- ENCERRA MENU -->	
+			</div>
+			<!-- ENCERRA HEADER -->
+
+<br><br>
+			<!-- COMECA GOOGLE MAPS -->	
+			<h1> Gramado RS</h1><br>
+			<style>
+				#map{
+					height: 300px;
+					width: 100%;
+				}
+			</style>
+			<div id="map"></div>
+    <script>
+      function initMap() {
+        // Create a map object and specify the DOM element for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -29.3688, lng: -50.8786},
+          zoom: 13
+        });
+      }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDf3JZASp0_Qelrq3Jlgb2BaEXNcD-jMa0&callback=initMap"
+    async defer></script>
+				
+			<!-- FINALIZA GOOGLE MAPS -->	
+
+			<br><br><br><br>
+			
+
+
+		
+
+			<!-- COMEÇA RODAPÉ -->
+			<div id="rodape" class="rodape">
+				<p style="text-align:center">Copyright © 2016 Best Place. Todos os direitos reservados.</p>
+			</div>
+
+			<!-- ENCERRA RODAPÉ -->			
+	
+		</div>
+		<!-- ENCERRA ESTRUTURA -->		
+	</body>
+	<!-- ENCERRA BODY -->
+</html>	
